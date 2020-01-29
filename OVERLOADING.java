@@ -18,7 +18,7 @@ class OVERLOADING {
     }
 
     void max(long a, long b) {
-        System.out.println("MAx Method with float argument");
+        System.out.println("MAx Method with long argument");
         if (a > b)
             System.out.println(a + "is greater");
         else
