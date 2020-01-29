@@ -4,7 +4,7 @@ class OVERLOADING {
         if (a > b)
             System.out.println(a + "is greater");
         else
-            System.out.println("b+"is greater);
+            System.out.println(b+"is greater");
 
     }
 
@@ -13,7 +13,7 @@ class OVERLOADING {
         if (a > b)
             System.out.println(a + "is greater");
         else
-            System.out.println("b+"is greater);
+            System.out.println(b+"is greater");
 
     }
 
@@ -22,12 +22,12 @@ class OVERLOADING {
         if (a > b)
             System.out.println(a + "is greater");
         else
-            System.out.println("b+"is greater);
+            System.out.println(b+"is greater");
 
     }
 
     public static void main(String args[]) {
-        Overload O = new Overload();
+        OVERLOADING O = new OVERLOADING();
         O.max(23L, 12L);
         O.max(2, 3);
         O.max(54f, 35f);
