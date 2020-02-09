@@ -5,7 +5,7 @@ class StaticInn{
         int p;
         static void f1()
         {
-            System.out.print("Inner class");
+            System.out.println("Inner class");
             System.out.println(a);
         }
         Inner(){
@@ -21,5 +21,6 @@ class StaticInn{
     public static void main(String args[])
     {
         StaticInn.Inner lo = new StaticInn.Inner();
+        lo.f1();
     }
 }

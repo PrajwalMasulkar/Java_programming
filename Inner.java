@@ -4,7 +4,7 @@ class Inner{
         void f1()
         {
             System.out.println("Inn :-Inner class ");
-
+            System.out.println(a);
         }
 
     }
