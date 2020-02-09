@@ -11,10 +11,6 @@ class FactoStat
             public static void main(String[] args){
                 Scanner scan = new Scanner(System.in);
 
-                int i,fact = 1;
-                int number = scan.nextInt();
-                fact = factorial(number);
-                System.out.print("Factorial of "+number+" is : "+fact);
             }
 
 
