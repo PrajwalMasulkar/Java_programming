@@ -7,6 +7,7 @@ class sum3{
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter 1st number ");
         n1=scan.nextInt();
+        System.out.println("Enter 2nd number ");
         n2=scan.nextInt();
         int sum=n1+n2;
         System.out.print("Sum is: "+sum);
